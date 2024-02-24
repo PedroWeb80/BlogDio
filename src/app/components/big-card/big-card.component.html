@@ -1,13 +1,15 @@
-<div class="container__big-card">
-    <div class="image__big-card">
-        <img [src]="image" alt="imagem card">
+<a [routerLink]="['/content']" routerLinkActive="router-link-active" >
+    <div class="container__big-card">
+        <div class="image__big-card">
+            <img [src]="image" alt="imagem card">
+        </div>
+        <div class="title__big-card">
+            <h2>{{ title }}</h2>
+        </div>
+        <div class="text__big-card">
+            <p>
+                {{ text }}
+            </p>
+        </div>
     </div>
-    <div class="title__big-card">
-        <h2>{{ title }}</h2>
-    </div>
-    <div class="text__big-card">
-        <p>
-            {{ text }}
-        </p>
-    </div>
-</div>
+</a>

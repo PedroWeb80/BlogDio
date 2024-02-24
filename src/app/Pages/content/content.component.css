@@ -1,0 +1,24 @@
+.container__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.cover__content {
+    width: 800px;
+    min-width: 550px;
+    
+}
+.cover__content > img{
+    width: 100%;
+    border-radius: 0.3rem;
+}
+
+.title__content {
+    font-size: 28px;
+    margin-top: 20px;
+}
+.description__content > p {
+    margin-top: 15px;
+    color: #888;
+}
