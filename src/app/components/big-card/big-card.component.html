@@ -1,15 +1,13 @@
 <div class="container__big-card">
     <div class="image__big-card">
-        <img src="https://media.licdn.com/dms/image/D4E12AQH5U7YIoDsreg/article-cover_image-shrink_720_1280/0/1677866362352?e=2147483647&v=beta&t=TzhUXspnT76fGLX3aobRJQurMGLtGdgCCTmdmEREGNU" alt="">
+        <img [src]="image" alt="imagem card">
     </div>
     <div class="title__big-card">
-        <h2>Um artigo que vai fazer você pensar...</h2>
+        <h2>{{ title }}</h2>
     </div>
     <div class="text__big-card">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Natus nemo odio aliquid neque ab laborum totam non 
-            ratione molestias sint dolorem facilis dolore officiis, 
-            vero ipsa sed cupiditate ducimus sit?
+        <p>
+            {{ text }}
         </p>
     </div>
 </div>

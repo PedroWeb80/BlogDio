@@ -1,0 +1,8 @@
+@media (max-width: 900px) {
+    .articles {
+        flex-direction: column;   
+    } 
+    .articles__main {
+        margin-bottom: 100px;
+    }
+}
