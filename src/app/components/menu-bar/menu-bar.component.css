@@ -1,0 +1,27 @@
+.container__menun-bar {
+    display: flex;
+    align-items: center;
+}
+.logo__menu-bar {
+    min-width: 100px;
+    margin-left: 25px;
+}
+
+.nav__menu-bar {
+    flex: 1;
+}
+.nav__menu-bar > ul {
+    display: flex;
+    list-style: none;
+}
+.nav__menu-bar > ul > li {
+    margin-left: 25px;
+}
+
+.social__menu-bar > ul {
+    display: flex;
+    list-style: none;
+}
+.social__menu-bar > ul > li {
+    margin: 25px;
+}

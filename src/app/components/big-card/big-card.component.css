@@ -1,0 +1,29 @@
+.container__big-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    flex: 1;
+}
+
+.image__big-card {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.image__big-card > img {
+    width: 100%;
+
+    
+}
+.title__big-card {
+    padding: 5px;
+}
+
+.text__big-card > p{
+    padding: 6px;
+    color: #777;
+    margin-top: 15px;
+}

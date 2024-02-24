@@ -1,7 +1,8 @@
 .container__menu-title {
     margin-top: 10px;
     color: #ffffff;
-    
+    border-top: 2px  solid #222;
+    border-bottom: 2px  solid #222;
 }
 .container__menu-title > h1 {
     margin-top: 10px;
