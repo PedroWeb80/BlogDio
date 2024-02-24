@@ -1,0 +1,13 @@
+.articles {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1224px;
+    margin: auto;
+    margin-top: 30px;
+}
+.articles__main {
+    flex: 1;
+}
+.articles__othes {
+    flex: 1;
+}
