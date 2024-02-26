@@ -15,4 +15,6 @@ export class BigCardComponent {
   image: string = '';
   @Input()
   text: string = '';
+  @Input()
+  id = '1';
 }

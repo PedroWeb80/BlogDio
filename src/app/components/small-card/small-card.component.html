@@ -1,14 +1,16 @@
-<div class="container__small-card">
-    <div class="image__small-card">
-        <img src="{{ image }}" alt="">
-    </div>
-   
-    <div class="content__small-card">
-        <div class="date__small-card">
-            <p>25/04/2023 as 15:00:50</p>
+<a [routerLink]="['content', id]">
+    <div class="container__small-card">
+        <div class="image__small-card">
+            <img src="{{ image }}" alt="">
         </div>
-        <p>
-            {{ title }}
-        </p>
+    
+        <div class="content__small-card">
+            <div class="date__small-card">
+                <p>25/04/2023 as 15:00:50</p>
+            </div>
+            <p>
+                {{ title }}
+            </p>
+        </div>
     </div>
-</div>
+</a>
